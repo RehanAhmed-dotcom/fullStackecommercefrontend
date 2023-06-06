@@ -4,13 +4,158 @@
 }
 
 body {
-  background: #333;
-  color: hsl(200, 100%, 90%);
-  max-width: 400px;
-  padding: 1rem;
-  margin: 0 auto;
+  background: #fff;
+  margin: 0;
+  /* color: hsl(200, 100%, 90%); */
+  /* max-width: 400px; */
+  /* padding: 1rem; */
+  /* margin: 0 auto; */
+}
+.ulli {
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+  color: white;
+  /* gap: 1rem; */
 }
 
+.ulli li:hover {
+  background-color: #777;
+}
+.ulli li:active {
+  background-color: #555;
+}
+.three {
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+.title {
+  font-size: 2rem;
+}
+.black-container {
+  background-color: black;
+  /* padding: 20rem; */
+  display: flex;
+  width: 30%;
+  height: 70%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 60%;
+}
+.input {
+  background-color: #454545;
+  margin-top: 20px;
+  height: 48px;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  /* border: 1px solid red; */
+  /* outline-color: red; */
+  padding-left: 10px;
+}
+.input:focus {
+  /* outline: none; */
+  border: none;
+}
+.eye {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 50px;
+  height: 48px;
+  bottom: 0;
+}
+/* .black-container a{
+  color:white;
+
+} */
+.login-button {
+  background-color: white;
+  border-radius: 10px;
+  height: 48px;
+  border: none;
+  margin-top: 10px;
+}
+.login-container {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: red;
+}
+.ulli a {
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+.nav {
+  display: flex;
+  gap: 2rem;
+  padding-right: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+}
+.cross {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.menuShowdown {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  /* border-bottom: ; */
+}
+.menuShow {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+@media only screen and (max-width: 768px) {
+  .nav {
+    background-color: red;
+    gap: 5rem;
+  }
+  .ulli {
+    gap: 0.1rem;
+    display: none;
+  }
+  .three {
+    display: flex;
+  }
+}
 .list-item {
   display: flex;
   flex-direction: row;
