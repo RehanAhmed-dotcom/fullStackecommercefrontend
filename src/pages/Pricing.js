@@ -1,3 +1,4 @@
+import "../styles.css";
 export default function Pricing() {
-  return <div>Pricing</div>;
+  return <div className="home">Pricing</div>;
 }
